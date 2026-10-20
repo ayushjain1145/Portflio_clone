@@ -1,0 +1,443 @@
+<!DOCTYPE HTML>
+ <html>
+	<head>
+		<title>Portflio</title>
+	   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+	   <style>
+		   body{
+			background-color:white;
+			color:black;
+			margin:0px;
+		   }
+			header{
+			 height:50px;
+			 background-color:grey;
+			 color:white;
+			 border-radius:0px;
+			 position:sticky;
+			 top:10px;
+			 z-index:2;
+			 display:flex;
+			}
+		   a{
+			 font-size:16px;
+			 font-family:aria ,sans-serif;
+			 margin:15px 0px 0px 55%;
+			 display:inline-block;			 
+			}
+			<!-- a:hover{ -->
+			 <!-- border-bottom:2px solid white; -->
+			 <!-- color:#DE2647; -->
+			 
+			}
+			.mar{
+			 margin-left:30px;
+			}
+			.d1{
+			 height:450px;
+			 border:1px solid white;
+			 margin:50px 0px 0px 0px;
+			 background-image:url('https://img.magnific.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg?semt=ais_hybrid&w=740&q=80');
+			 background-size:100% 100%;
+			}
+			.d2{
+			 height:350px;
+			 width:380px;
+			 border:0px solid white;
+			 margin:40px 0px 0px 50px;
+			 display:inline-block;
+			}
+			.d2u1{
+			 height:180px;
+			 width:180px;
+			 outline:1px solid blue;
+			 outline-offset:7px;
+			 border-radius:100px;
+			 margin:30px 0px 0px 90px;
+			 background-image:url('https://cdn-icons-png.flaticon.com/512/5813/5813819.png');
+			 background-size:100% 100%;
+			}
+			.p1{
+			 font-size:18px;
+			 font-family:aria ,sans-serif;
+			 margin:30px 0px 0px 0px;
+			 text-align:center;
+			 color:blue;
+			}
+			.d2u2{
+			 height:350px;
+			 width:700px;
+			 border:0px solid white;
+			 margin:40px 0px 0px 140px;
+			 display:inline-block;
+			 vertical-align:top;
+			 color:white;
+			}
+			.p2{
+			 font-size:32px;
+			 font-family:aria ,sans-serif;
+			 margin:30px 0px 0px 0px;
+			 text-align:center;
+			}
+			<!-- .p2:hover{ -->
+			 <!-- text-decoration:underline; -->
+			 <!-- color:#94BBE9;		  -->
+			<!-- } -->
+			.p3{
+			 font-size:18px;
+			 font-family:aria ,sans-serif;
+			 margin:30px 0px 0px 30px;
+			}
+			.d3{
+			 height:480px;
+			 border:1px solid lightgrey;
+			 margin:50px 0px 0px 0px;
+			 border-radius:10px;
+			 }
+			 <!-- .d3:hover{ -->
+			 <!-- transform: scale(101%); -->
+			 <!-- } -->
+			 .d3i{
+			  display:inline-block;
+			  margin:30px 0px 20px 80px;
+			  text-align:center;
+			  font-size:32px;
+			  color:#E62EEAAD;
+			 }
+			 .d3p{
+			 font-size:32px;
+			 font-family:arial ,sans-serif;
+			 margin:30px 0px 0px 15px;
+			}
+			.flex{
+			 height:350px;
+			 width:95%;
+			 border:0px solid black;
+			 margin:10px 0px 0px 2%;
+			 display:flex;
+			 flex-wrap:wrap;	
+			}
+			.flexchi{
+			 height:150px;
+			 width:200px;
+			 border:1px solid grey;
+			 border-radius:10px;
+			 margin:25px 0px 0px 50px;
+			}
+			.logo{
+			 height:60px;
+			 width:60px;
+			 margin:10px 0px 0px 40px;
+			 text-align:center;
+			}
+			.name{
+			 font-size:20px;
+			 font-family:arial, sans-serif;
+			 margin:30px;
+			}
+			
+			.detail{
+			 font-size:16px;
+			 font-family:arial, sans-serif;
+			 margin:10px;
+			}
+			
+			
+			
+			
+			.d3s1{
+			 height:40px;
+			 width:120px;
+			 border:1px solid lightgrey;
+			 border-radius:5px;
+			 margin:100px 0px 0px -7%; 
+			}
+			.d3s1m{
+			 margin-left:50px;
+			}
+			.d3d1{
+			 height:40px;
+			 width:39px;
+			 border:0px solid black;
+			 margin:0px 0px 0px 5px;
+			 display:flex;
+			}
+			.nam{
+			 font-size:18px;
+			 margin:11px 0px 0px 5px;
+			 font-family:arial ,sans-serif;
+			}
+			.d3s1ma{
+			 margin-left:50px;
+			}
+			
+			
+			.project-logo{
+				font-size:24px;
+				font-family:aria, sans-serif;
+				margin:50px 0px 30px 90px;
+			}
+			.Project-div{
+				height:500px;
+				width:90%;
+				margin:20px 0px 30px 5%;
+				border:0px solid black;
+				display:flex;
+				justify-content:space-around;
+				flex-wrap:wrap;
+			}
+			.project{
+				height:190px;
+				width:220px;
+				margin:20px 0px 0px 40px;
+				border:1px solid black;
+				border-radius:10px;
+				box-shadow:-4px 0px 4px grey;
+			}
+			.pro-no{
+				font-size:24px;
+				text-align:right;
+				color:grey;
+				margin:10px 20px 10px 0px;
+			}
+			.pro-logo{
+				height:50px;
+				width:50px;
+				border:0px solid black;
+				border-radius:100px;
+				margin:0px 0px 0px 30px;
+				text-align:center;
+				background-color:lightgrey;
+			}
+			.pro-icon{
+				text-align:center;
+				font-size:28px;
+				color:#6A83A3;
+				margin:8px 0px 0px 0px;
+				display:inline-block;
+			}
+			.pro-name{
+				font-family:arial, sans-serif;
+				font-size:20px;
+				margin:15px 0px 0px 10px;
+			}
+			.pro-view{
+				font-size:16px;
+				font-family:arial, sans-serif;
+				text-align:right;
+				margin:2px 30px 0px 0px;
+				color:#A24C1E;
+				text-decoration:bold;
+			}
+	   </style>
+	</head>
+	<body>
+	    <header>
+			 <a>Home</a>
+			 <a class="mar">Skils</a>
+			 <a class="mar">Project</a>
+			 <a class="mar">Contect</a>
+			 <a class="mar">About</a>
+			 <a class="mar">More</a>
+		</header>
+	     
+		<main>
+		    <section>
+		         <div class="d1">
+				     <div class="d2">
+                         <div class="d2u1"></div>
+						 <p class="p1">Full Stack Developer</p>
+						 <p class="p1" style="color:white">Passionate developer foucsed on build -<br>ing responsive, user-friendly and modern web applications.</p>
+					 </div>
+					 <div class="d2u2">
+					     <p class="p2">Hello, I'm<br>Ayush Jain</p>
+						 <p class="p3">BCS(Computer Science) Student Currently I am learn Full-Stack Development with<br> a strong interest in building user-friendly websites. Passionate developer foucsed on building responsive, user-friendly and modern websites. I am eager to apply my skills in real-world projects and continue growing as a developer.</p>
+
+						 <!-- Currently, I am learning HTML, CSS, JavaScript, and PHP while continuously Build my programming and problem-solving skills. learning new technologies, building practical solutions, and turning ideas into working applications. I am eager to apply my skills in real-world projects and continue growing as a developer.  -->
+					 </div>
+				 </div>
+			</section>	 
+			 
+			<section>
+			     <div class="d3">
+				     <span class="d3i">
+				         <i class="ri-code-s-slash-line"></i>
+                     </span>	 				
+					<span class="d3p">Skils</span>
+					
+					
+					<div class="flex">
+						<div class="flexchi">
+							<div class="logo">
+								<img src="https://t3.ftcdn.net/jpg/05/78/11/34/360_F_578113446_j72wZX7u698eoV50XXmkLMH7gGuNhpVB.jpg" height="100%" width="100%">
+							</div>
+							<span class="name">HTML 5</span>
+							<p class="detail">Html are bacis strcure of web page</p>
+						</div>
+						
+						
+						<div class="flexchi">
+							<div class="logo">
+								<img src="https://img.icons8.com/color/1200/css3.jpg" height="100%" width="100%" >
+							</div>
+							<span class="name">CSS3</span>
+							<p class="detail">Html is a bacis strcure of web page</p>
+						</div>
+						
+						
+						<div class="flexchi">
+							<div class="logo">
+								<img src="https://static.vecteezy.com/system/resources/previews/027/127/560/non_2x/javascript-logo-javascript-icon-transparent-free-png.png" height="100%" width="100%" >
+							</div>
+							<span class="name">JavaScript</span>
+							<p class="detail">Html is a bacis strcure of web page</p>
+						
+						</div>
+						
+						<div class="flexchi">
+							<div class="logo">
+								<img src="https://images.seeklogo.com/logo-png/35/1/tailwind-css-logo-png_seeklogo-354675.png" height="100%" width="100%" >
+							</div>
+							<span class="name">Tailwind CSS</span>
+							<p class="detail">Html is a bacis strcure of web page</p>
+						
+						</div>
+						
+						
+						<div class="flexchi">
+							<div class="logo">
+								<img src="https://images.icon-icons.com/3685/PNG/512/github_logo_icon_229278.png" height="100%" width="100%" >
+							</div>
+							<span class="name">Git & GitHub</span>
+							<p class="detail">Html is a bacis strcure of web page</p>
+						</div>
+						
+						
+						<div class="flexchi">
+							<div class="logo">
+								<img src="https://pngimg.com/uploads/php/php_PNG10.png" height="100%" width="100%" >
+							</div>
+							<span class="name">PHP</span>
+							<p class="detail">Html is a bacis strcure of web page</p>
+						</div>
+						
+						
+						<div class="flexchi">
+							<div class="logo">
+								<img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/1920px-C_Programming_Language.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" height="100%" width="100%" >
+							</div>
+							<span class="name">C <span>
+							<p class="detail">Html is a bacis strcure of web page</p>
+						</div>
+						
+						<div class="flexchi">
+							<div class="logo">
+								<img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1920px-ISO_C%2B%2B_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" height="100%" width="100%" >
+							</div>
+							<span class="name">C ++<span>
+							<p class="detail">Html is a bacis strcure of web page</p>
+						</div>
+						
+						<div class="flexchi">
+							<div class="logo">
+								<img src="https://img.icons8.com/fluent/1200/sql.jpg" height="100%" width="100%" >
+							</div>
+							<span class="name">SQL<span>
+							<p class="detail">Html is a bacis strcure of web page</p>
+						</div>
+						
+						<div class="flexchi">
+							<div class="logo">
+								<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7bdip4HQZAyzat_loHmuXmqQPUUH16tfIo1Fix4v86o_ZRZZm3HTgqrwX&s=10" height="100%" width="100%" >
+							</div>
+							<span class="name">Mongo DB<span>
+							<p class="detail">Html is a bacis strcure of web page</p>
+						</div>
+						
+						
+					</div>
+				</div>	
+				    
+			</section>
+			
+			<section>
+				<p class="project-logo"><i class="ri-folder-open-line" style="color:#6427A3EB;font-size:32px;"></i><span style="margin:15px;">Projects</span></p>
+				
+				<div class="Project-div">
+					<div class="project">
+						<p class="pro-no">01</p>
+						<div class="pro-logo">
+							<i class="ri-drinks-fill pro-icon"></i>
+						</div>
+						<p class="pro-name">Cafe Shop Website Clone</p>
+						<p class="pro-view">View Project <i class="ri-arrow-right-long-line"></i></p>
+					</div>
+					
+					<div class="project">
+						<p class="pro-no">02</p>
+						<div class="pro-logo">
+							<i class="ri-restaurant-line pro-icon"></i>
+						</div>
+						<p class="pro-name">Swiggy Home Page Website Clone</p>
+						<p class="pro-view">View Project <i class="ri-arrow-right-long-line"></i></p>
+					</div>
+					
+					<div class="project">
+						<p class="pro-no">03</p>
+						<div class="pro-logo">
+							<i class="ri-linkedin-box-fill pro-icon"></i>
+						</div>
+						<p class="pro-name">Linkdin Home Page Website Clone</p>
+						<p class="pro-view">View Project <i class="ri-arrow-right-long-line"></i></p>
+					</div>
+					
+					<div class="project">
+						<p class="pro-no">04</p>
+						<div class="pro-logo">
+							<i class="ri-timer-flash-line pro-icon"></i>
+						</div>
+						<p class="pro-name">Titan Home Page Website Clone</p>
+						<p class="pro-view">View Project <i class="ri-arrow-right-long-line"></i></p>
+					</div>
+					
+					<div class="project">
+						<p class="pro-no">05</p>
+						<div class="pro-logo">
+							<i class="ri-youtube-fill pro-icon"></i>
+						</div>
+						<p class="pro-name">Youtube Home Page Website Clone</p>
+						<p class="pro-view">View Project <i class="ri-arrow-right-long-line"></i></p>
+					</div>
+					
+					<div class="project">
+						<p class="pro-no">06</p>
+						<div class="pro-logo">
+							<i class="ri-youtube-fill pro-icon"></i>
+						</div>
+						<p class="pro-name">Youtube Home Page Website Clone</p>
+						<p class="pro-view">View Project <i class="ri-arrow-right-long-line"></i></p>
+					</div>
+					
+					<div class="project">
+						<p class="pro-no">07</p>
+						<div class="pro-logo">
+							<i class="ri-youtube-fill pro-icon"></i>
+						</div>
+						<p class="pro-name">Youtube Home Page Website Clone</p>
+						<p class="pro-view">View Project <i class="ri-arrow-right-long-line"></i></p>
+					</div>
+					
+					<div class="project">
+						<p class="pro-no">08</p>
+						<div class="pro-logo">
+							<i class="ri-youtube-fill pro-icon"></i>
+						</div>
+						<p class="pro-name">Youtube Home Page Website Clone</p>
+						<p class="pro-view">View Project <i class="ri-arrow-right-long-line"></i></p>
+					</div>
+				
+				</div>
+			</section>
+		</main>
+	</body>
+ </html>
